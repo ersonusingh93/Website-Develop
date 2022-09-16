@@ -1,0 +1,179 @@
+/*
+CSS
+Selectors : 
+class
+id 
+attribute
+element
+universal
+
+Properties:
+background : 
+background-image
+background-position
+background-color
+background-size
+background-clip
+background-origin
+background-repeat
+background-attachment
+
+
+
+margin: 
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+padding: 
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+Font:
+font-family
+font-size
+font-stretch
+font-style
+font-variant
+font-weight
+line-height
+
+display:
+display: block;
+display: inline;
+display: inline-block;
+display: flex;
+display: inline-flex;
+display: grid;
+display: inline-grid;
+display: flow-root;
+
+PSD Files: 
+Illustrator
+adobe photoshop
+adobe xd
+photpeia
+
+Transform:
+CSS Demo: transform
+transform: matrix(1, 2, 3, 4, 5, 6);
+Choose example 1
+transform: translate(120px, 50%);
+Choose example 2
+transform: scale(2, 0.5);
+Choose example 3
+transform: rotate(0.5turn);
+Choose example 4
+transform: skew(30deg, 20deg);
+Choose example 5
+transform: scale(0.5) translate(-100%, -100%);
+
+
+Transition:
+transition
+transition-delay
+transition-duration
+transition-property
+transition-timing-function 
+transition and transform are separate CSS properties, but you can supply transform to transition to "animate" a transformation.
+transition
+The CSS transition property listens for changes to specified properties (background-color, width, height, etc.) over time.
+
+transition Property Syntax:
+
+selector {
+    transtion: [property-name] [duration] [timing-function] [delay]
+}
+
+
+
+
+Animation: 
+
+
+
+
+Pseudo class: 
+
+
+
+
+
+
+Pseudo Elements: 
+
+
+
+Justify Content - 
+1. justify-content: along primary axis
+(set horizontal alignment/spacing if flex-direction is row or vertical alignment/spacing if flex-direction is column)
+
+For instance, if flex-direction is row (default):
+
+flex-start; Align children horizontally left
+
+flex-end; Align children horizontally right
+
+center; Align children horizontally centered (amaze!)
+
+space-between; Distribute children horizontally evenly across entire width
+
+space-around; Distribute children horizontally evenly across entire width (but with space on the edges
+
+Align Items: 
+2. align-items: along secondary axis
+(set vertical alignment if flex-direction is row or horizontal alignment if flex-direction is column)
+
+For instance, if flex-direction is row (default):
+
+flex-start; Align children vertically top
+
+flex-end; Align children vertically bottom
+
+center; Align children vertically centered (amaze!)
+
+baseline; Aligned children vertically so their baselines align (doesn't really work)
+
+stretch; Force children to be height of container (great for columns)
+
+
+Pseudo-classes
+Pseudo-classes select regular elements but under certain conditions, like when their position relative to siblings or when they’re under a particular state. Here is a list of pseudo-classes in CSS3:
+
+Dynamic pseudo-classes
+:link
+:visited
+:hover
+:active
+:focus
+UI element states pseudo-classes
+:enabled
+:disabled
+:checked
+Structural pseudo-classes
+:first-child
+:nth-child(n)
+:nth-last-child(n)
+:nth-of-type(n)
+:nth-last-of-type(n)
+:last-child
+:first-of-type
+:last-of-type
+:only-child
+:only-of-type
+:root
+:empty
+Other pseudo-classes
+:not(x)
+:target
+:lang(language)
+
+Pseudo Elements: 
+::before
+::after
+::first-letter
+::first-line
+*/
